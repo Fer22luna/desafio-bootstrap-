@@ -1,0 +1,126 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/*--------MAIN-------*/
+.main-contenedor {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+}
+
+/*--------SECTION HERO-------*/
+.hero {
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.500), rgba(0, 0, 0, 0.500)), url(./Multimedia/hojas.jpg);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: #F4EEFF;
+}
+
+.hero h1 {
+    font-family: 'Rubik', sans-serif;
+    font-size: 80px;
+    font-weight: bolder;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.hero h2 {
+    font-family: 'Rubik', sans-serif;
+    font-size: 50px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.input-group{
+    width: 60%;
+}
+
+.acerca{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.acerca img {
+    width: 500px;
+    height: 130%;
+}
+
+.novedades div img {
+    object-fit: cover; 
+    padding: 15px;
+}
+
+.card {
+    width: 50%;
+    height: 50%;
+}
+
+
+/*---------SECTION COMPRA-VENTA---------*/
+
+.compra-venta {
+    font-family: 'Rubik', sans-serif;
+    width: 100%;
+    height: 50vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.500), rgba(0, 0, 0, 0.500)), url(./Multimedia/biblioteca.jpg);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: #F4EEFF;
+    background-attachment: fixed;
+    margin-top: 50px;
+}
+
+.compra-venta h2 {
+    font-size: 55px;
+    font-weight: bold;
+  ;
+}
+
+.compra-venta p {
+    font-size: 38px;
+    font-weight: bold;
+   ;
+    margin-bottom: 20px;
+}
+
+.compra-venta a {
+    font-family: 'Rubik', sans-serif;
+    font-weight: bold;
+    font-size: 35px;
+    color: #424874;
+    background-color: #A6B1E1;
+    text-decoration: none;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 15px;
+    border: #F4EEFF solid 2px;
+    transition: all 2s;
+
+}
+
+.compra-venta a:hover {
+    color: #F4EEFF;
+    background-color: #424874;
+    transform: scale(1.3);
+    transition: all 2s;
+
+}
+
+.redes img {
+    width: 30px;
+    height: auto;
+}
