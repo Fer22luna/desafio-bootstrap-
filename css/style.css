@@ -1,0 +1,63 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+[id] {
+    scroll-margin-top: 3.8em;
+ }
+
+
+/*----------------------------------------SECTION HERO-----------------------------------*/
+.hero {
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.500), rgba(0, 0, 0, 0.500)), url(../Multimedia/biblioteca.jpg);
+    background-size: cover;
+    color: #F4EEFF;
+    background-attachment: fixed;
+}
+
+.hero h1 {
+    font-size: 70px;
+}
+
+.input-group{
+    width: 60%;
+}
+/*----------------------------------------NOSOTROS--------------------------------------*/
+
+.nosotros{
+    background-color:#F4EEFF;
+}
+
+.parrafo-titulo {
+    transform: translateY(-40px);
+}
+
+/*-------------------------------------NOVEDADES----------------------------------*/
+.novedades div img {
+    object-fit: cover; 
+}
+
+.card {
+    width: 100%;
+    height: auto;
+}
+
+/*------------------------------SECTION COMPRA-VENTA----------------------------------*/
+
+.compra-venta {
+    width: 100%;
+    height: 50vh;
+    background-color: #F4EEFF;
+}
+
+/*-----------------------------------------FOOTER-------------------------------------------*/
+
+.footer{
+    background-color:#F4EEFF;
+    width: 100%;
+}
+
